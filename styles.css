@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(17, 24, 32);
+    color: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav li:hover {
+    text-decoration: underline;
+}
+
+.index-header div {
+    margin: 0;
+    padding-top: 200px;
+}
+
+.index-header{
+    height: 400px;
+}
+
+header {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.index-main {
+    padding: 20% 10% 0 10%;
+}
+
+main {
+    padding: 0 10% 0 10%;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.skills-and-tools-list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skills-and-tools-list li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.skills-and-tools-list li:first-child {
+    padding: 0px;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.see-more-text {
+    text-decoration: underline;
+}
+
+footer {
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(18, 31, 46);
+}
+
+footer li {
+    display: inline-block;
+    margin: 0;
+    padding: 2%;
+}
