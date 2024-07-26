@@ -47,6 +47,23 @@ main {
     padding: 0 10% 0 10%;
 }
 
+main section h1 {
+    font-size: 3em;
+}
+
+main section h2 {
+    font-size: 2em;
+}
+
+main section {
+    background-color: rgb(33, 42, 56);
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin: 0 0 50px;
+    border-color: aliceblue;
+    border-width: 2px;
+}
+
 .project {
     display: flex;
     flex-direction: row;
@@ -62,11 +79,14 @@ main {
 
 .skills-and-tools-list li {
     display: inline-block;
-    padding: 5px;
+    padding: 7px;
+    margin: 5px;
+    background-color: rgb(28, 55, 87);
+    border-radius: 15px;
 }
 
 .skills-and-tools-list li:first-child {
-    padding: 0px;
+    margin: 5px 5px 5px 0;
 }
 
 footer ul {
